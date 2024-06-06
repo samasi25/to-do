@@ -1,3 +1,33 @@
+# React To-Do Application
+
+This is a simple To-Do application built using React.js. It allows users to add, view, edit, and delete tasks. The application utilizes Redux for state management and React Router for navigation.
+
+## Folder Structure
+
+- `public/`: Contains the index.html file and other static assets.
+- `src/`: Contains the React components, Redux store, stylesheets, and other application files.
+  - `components/`: Contains the TaskInput and TaskList components.
+  - `redux/`: Contains the Redux store setup and actions/reducers for managing tasks.
+  - `App.js`: Main component that renders the application.
+  - `App.css`: Stylesheet for the App component.
+  - `index.js`: Entry point for the React application.
+  - `index.css`: Global styles.
+
+## Technologies Used
+
+- React.js
+- Redux
+- React Router
+- Bootstrap (for styling)
+- FontAwesome (for icons)
+
+## Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-todo-app.git
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
