@@ -1,0 +1,83 @@
+/* Common styles for task items */
+.list-group-item {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.list-group-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.task-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.task-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.task-date {
+  font-size: 0.875rem;
+  color: #888;
+}
+
+.edit-input {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* Styles for completed tasks */
+.list-group-item.done {
+  background-color: #e0ffe0;
+  text-decoration: line-through;
+}
+
+/* Styles for icon buttons */
+.btn-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #0056b3;
+}
+
+/* Ensuring date picker dropdown visibility */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker {
+  z-index: 1050 !important;
+}
+
+.react-datepicker-popper {
+  z-index: 1050 !important;
+}
+
+/* Additional styles for editing task form */
+.edit-form-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-form-controls button {
+  margin-left: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .edit-input .d-flex {
+    flex-direction: column;
+  }
+
+  .edit-input .w-50 {
+    width: 100%;
+  }
+}

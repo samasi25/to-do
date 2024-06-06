@@ -1,0 +1,38 @@
+.task-input {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.task-input .form-group {
+  margin-bottom: 15px;
+}
+
+.task-input .form-control {
+  font-size: 1rem;
+}
+
+.task-input label {
+  font-weight: bold;
+}
+
+.task-input .btn {
+  width: auto;
+}
+
+/* Ensure the description and date inputs are side by side */
+.task-input .d-flex {
+  display: flex;
+}
+
+.task-input .w-50 {
+  width: 50%;
+}
+
+.task-input .mr-1,
+.task-input .ml-1 {
+  margin-right: 5px;
+  margin-left: 5px;
+}
